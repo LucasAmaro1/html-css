@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadrastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <label for="isxman"><input type="radio" name="sexo" id="isxmas" value="M" checked>Masculino</label>
+            </p>
+            <p>
+                <label for="isxfem"><input type="radio" name="sexo" id="isxfem" value="F">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <p>
+                <label for="ibas"><input type="checkbox" name="basquete" id="ibas">Basquete</label>
+            </p>
+            <p>
+                <label for="ifut"><input type="checkbox" name="Futebol" id="ifut" checked >Futebol</label>
+            </p>
+            <p>
+                <label for="ivol"><input type="checkbox" name="Volei" id="ivol">Volei</label>
+            </p>
+            <p>
+                <label for="iten"><input type="checkbox" name="Tenis" id="iten">Tenis</label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
